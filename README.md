@@ -28,4 +28,4 @@ Some work was completed individually and some in course teams. The project pages
 
 ## Source Code Availability
 
-This public repository contains project descriptions only. Source code is kept private because the projects include academic coursework. I can discuss implementation decisions and provide appropriate samples during interviews.
+This public repository contains project descriptions only. Source code can be provided upon request.
