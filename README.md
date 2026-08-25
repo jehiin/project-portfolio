@@ -8,15 +8,15 @@ Some work was completed individually and some in course teams. The project pages
 
 | Area | Projects |
 |---|---:|
-| [Digital Logic Design](Digital%20Logic%20Design/) | 7 |
-| [Programming and Data Structures](Programming%20and%20Data%20Structures/) | 6 |
-| [Data Structures and Algorithms](Data%20Structures%20and%20Algorithms/) | 6 |
-| [Computer Organization](Computer%20Organization/) | 7 |
-| [Computer Architecture](Computer%20Architecture/) | 8 |
-| [Operating Systems](Operating%20Systems/) | 3 |
-| [Compiler Construction](Compiler%20Construction/) | 5 |
-| [Database Management Systems](Database%20Management%20Systems/) | 4 |
-| [Web Systems](Web%20Systems/) | 5 |
+| [Digital Logic Design](Digital%20Logic%20Design/README.md) | 7 |
+| [Programming and Data Structures](Programming%20and%20Data%20Structures/README.md) | 6 |
+| [Data Structures and Algorithms](Data%20Structures%20and%20Algorithms/README.md) | 6 |
+| [Computer Organization](Computer%20Organization/README.md) | 7 |
+| [Computer Architecture](Computer%20Architecture/README.md) | 8 |
+| [Operating Systems](Operating%20Systems/README.md) | 3 |
+| [Compiler Construction](Compiler%20Construction/README.md) | 5 |
+| [Database Management Systems](Database%20Management%20Systems/README.md) | 4 |
+| [Web Systems](Web%20Systems/README.md) | 5 |
 
 ## Engineering Practices
 
