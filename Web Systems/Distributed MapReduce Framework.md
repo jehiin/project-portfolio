@@ -2,7 +2,9 @@
 
 ## Overview
 
-Built a Python Manager-Worker framework using processes, threads, TCP/UDP communication, task coordination, fault recovery, logging, and tests.
+Built a distributed MapReduce framework in Python that coordinates independent Manager and Worker processes over TCP and UDP.  
+Implemented worker registration, heartbeat monitoring, map/reduce task assignment, partitioning, external sorting, shutdown, and automatic recovery from worker failure.  
+Used thread-safe shared state, structured logging, command-line entry points, and unit/integration tests to validate both normal execution and failure scenarios.
 
 ## What This Demonstrates
 

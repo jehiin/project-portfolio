@@ -2,7 +2,9 @@
 
 ## Overview
 
-Added a React and JSX client that consumes REST APIs, performs asynchronous updates, and supports dynamic post interactions.
+Rebuilt the social feed as a React and JSX interface backed by authenticated JSON REST APIs.  
+Implemented asynchronous likes, comments, deletion, double-click interactions, infinite scrolling, and loading/error states without full-page refreshes.  
+Integrated client and Flask server behavior, bundled the frontend with Webpack, and verified UI/API contracts through Cypress and Python tests.
 
 ## What This Demonstrates
 

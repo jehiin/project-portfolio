@@ -2,7 +2,9 @@
 
 ## Overview
 
-Implemented a Flask application with authentication, sessions, SQL-backed CRUD operations, uploads, and server-rendered pages.
+Developed a server-rendered social-media application with Flask, Jinja, SQLite, HTML, and CSS.  
+Implemented account authentication, password hashing, sessions, CSRF protection, uploads, follows, likes, comments, posts, and account-management CRUD workflows.  
+Separated routes from the data model and used automated integration tests to verify authorization, database state, redirects, and end-to-end user behavior.
 
 ## What This Demonstrates
 
