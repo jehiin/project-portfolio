@@ -2,7 +2,9 @@
 
 ## Overview
 
-Implemented user-level threads, CPUs, mutexes, and condition variables with scheduling, context management, and synchronization semantics.
+Implemented a user-level threading runtime in C++ with thread creation, yielding, joining, scheduling, and stack/context management.  
+Built FIFO mutex and condition-variable wait queues with precise blocking, signaling, broadcast, interrupt, and resource-reclamation behavior.  
+Validated the library with targeted tests for ordering, misuse, deadlock scenarios, asynchronous interrupts, allocation failures, and thread teardown.
 
 ## What This Demonstrates
 

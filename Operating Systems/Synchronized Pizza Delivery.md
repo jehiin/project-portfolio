@@ -2,7 +2,9 @@
 
 ## Overview
 
-Built a multithreaded pizza-delivery simulation that coordinates drivers and customers using shared state and synchronization.
+Built a concurrent pizza-delivery system in C++ where customer and driver threads coordinate through shared state.  
+Used mutexes and condition variables to implement matching, order readiness, delivery, payment, and blocking without busy waiting.  
+Reasoned about lock ownership and event ordering, then tested changing schedules and interleavings to expose deadlocks, missed wakeups, and race conditions.
 
 ## What This Demonstrates
 

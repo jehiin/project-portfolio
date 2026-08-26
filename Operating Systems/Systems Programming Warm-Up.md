@@ -2,7 +2,9 @@
 
 ## Overview
 
-Completed a compact C++ systems-programming warm-up used to validate the development environment and toolchain.
+Completed a focused C++ systems-programming exercise to validate the compiler, build process, runtime environment, and submission toolchain.  
+Used a minimal executable to confirm correct source organization, compilation flags, command-line execution, and expected output behavior.  
+Established a reproducible baseline for debugging the substantially larger concurrent systems that followed.
 
 ## What This Demonstrates
 
