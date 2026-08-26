@@ -2,7 +2,9 @@
 
 ## Overview
 
-Implemented a processor datapath exercise and verified instruction behavior with supplied programs and test infrastructure.
+Implemented a working processor datapath that fetches, decodes, and executes instructions against a modeled memory system.  
+Connected the register file, ALU, control logic, and memory interfaces while preserving instruction-level architectural behavior.  
+Validated execution with assembly workloads, cycle traces, and waveform-based debugging before synthesis.
 
 ## What This Demonstrates
 

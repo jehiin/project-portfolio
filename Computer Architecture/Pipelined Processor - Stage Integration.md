@@ -2,7 +2,9 @@
 
 ## Overview
 
-Developed and integrated a staged processor design with fetch, computation, and memory/retirement structure.
+Partitioned a processor into instruction-fetch, computation, and memory/retirement stages with explicit pipeline-register interfaces.  
+Integrated the stages into a cycle-accurate CPU while carrying instruction data, control signals, and program state across stage boundaries.  
+Used directed assembly tests and waveform traces to isolate interface errors and verify correct multi-cycle instruction flow.
 
 ## What This Demonstrates
 
