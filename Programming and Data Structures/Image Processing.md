@@ -2,7 +2,9 @@
 
 ## Overview
 
-Built matrix and image abstractions and used them to implement content-aware image resizing.
+Implemented Matrix and Image abstractions in C++ and used them to build a content-aware seam-carving pipeline.  
+Computed pixel energy, dynamic-programming cost paths, and minimum-energy seams to resize images while preserving visually important content.  
+Validated ownership, indexing, transformations, and boundary behavior with layered unit tests across the complete image-processing stack.
 
 ## What This Demonstrates
 

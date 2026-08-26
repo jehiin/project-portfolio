@@ -2,7 +2,9 @@
 
 ## Overview
 
-Developed a complete Euchre card-game simulator with player strategies, dealing, bidding, trick play, scoring, and deterministic tests.
+Developed a complete C++ Euchre simulator that models cards, packs, players, bidding, trick play, scoring, and full game progression.  
+Used inheritance and polymorphism to support automated strategies and interactive human players behind a common interface.  
+Verified rule-heavy behavior with deterministic shuffling, unit tests for every abstraction, and full-game output comparisons.
 
 ## What This Demonstrates
 

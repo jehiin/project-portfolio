@@ -2,7 +2,9 @@
 
 ## Overview
 
-Implemented a text-classification program that learns word-label relationships and predicts labels for unseen posts.
+Built a supervised text classifier in C++ that learns label and word frequencies from CSV training data.  
+Applied a Naive Bayes-style log-probability model with vocabulary-aware smoothing to predict categories for unseen posts.  
+Produced interpretable training and prediction output while testing parsing, sparse word counts, unseen tokens, and tie behavior.
 
 ## What This Demonstrates
 

@@ -2,7 +2,9 @@
 
 ## Overview
 
-Built templated binary-search-tree and associative-map abstractions with traversal, lookup, insertion, and ordering behavior.
+Built a templated binary search tree with recursive insertion, lookup, traversal, height, min/max, and invariant-checking operations.  
+Layered a reusable associative Map abstraction over the tree with key-value pairs, iterators, and logarithmic search behavior on balanced inputs.  
+Tested ordering, duplicates, copy behavior, empty structures, and degenerate trees to validate both the data structure and its public interface.
 
 ## What This Demonstrates
 

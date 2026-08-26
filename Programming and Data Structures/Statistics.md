@@ -2,7 +2,9 @@
 
 ## Overview
 
-Implemented a statistics library and command-line data analysis workflow for tabular datasets.
+Built a reusable C++ statistics library for summarizing and comparing tabular datasets.  
+Implemented descriptive measures, percentiles, filtering, and two-sample analysis using vectors and carefully defined numerical behavior.  
+Connected the library to a command-line workflow and verified each calculation with focused unit and end-to-end tests.
 
 ## What This Demonstrates
 
