@@ -2,7 +2,9 @@
 
 ## Overview
 
-Built Java workflows that connect application logic to a relational database and execute parameterized queries and updates.
+Built a Java database-access layer that transforms complex social-network questions into structured Oracle SQL queries.  
+Implemented analyses for birth months, names, isolated users, tagged photos, friend suggestions, event geography, age, and potential siblings.  
+Mapped multi-row query results into typed Java data structures while managing joins, grouping, ranking, resources, and SQL exceptions.
 
 ## What This Demonstrates
 
