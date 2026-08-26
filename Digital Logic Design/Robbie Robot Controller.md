@@ -2,7 +2,9 @@
 
 ## Overview
 
-Implemented robot decision and action logic from input conditions using modular Verilog components.
+Built a combinational controller that converts left, forward, and right sensor inputs into independent wheel actions for an autonomous robot.  
+Expressed the decision policy with modular structural Verilog and translated actuator states into readable seven-segment feedback.  
+Verified the full sensor truth space to ensure predictable steering and obstacle-response behavior.
 
 ## What This Demonstrates
 

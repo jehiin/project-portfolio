@@ -2,7 +2,9 @@
 
 ## Overview
 
-Built a second robot-control design using unsigned comparison and action-selection logic.
+Designed a richer robot controller that combines three-bit left/right sensor measurements with four directional bumper inputs.  
+Implemented an unsigned comparator and priority-based wheel-action logic for forward, reverse, and stop decisions under competing conditions.  
+Integrated one-hot actuator encoding with seven-segment displays and validated normal, tie, and collision scenarios.
 
 ## What This Demonstrates
 

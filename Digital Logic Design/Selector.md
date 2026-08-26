@@ -2,7 +2,9 @@
 
 ## Overview
 
-Designed a parameterized selector circuit and top-level FPGA integration in Verilog.
+Designed a structural 7-bit two-to-one selector in Verilog by composing reusable single-bit multiplexer cells.  
+Mapped physical switches and a pushbutton into a top-level FPGA interface with LED and seven-segment outputs.  
+Verified the gate-level Boolean implementation and module wiring across every selector and input combination.
 
 ## What This Demonstrates
 

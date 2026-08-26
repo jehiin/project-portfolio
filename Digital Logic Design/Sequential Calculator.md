@@ -2,7 +2,9 @@
 
 ## Overview
 
-Built a four-function sequential calculator that coordinates arithmetic operations across a clocked datapath and control flow.
+Built a clocked calculator around a parameterized arithmetic datapath, accumulator registers, and an explicit finite-state controller.  
+Coordinated operand loading, chained operations, clear/equal commands, signed-number conversion, result display, and overflow handling across multiple cycles.  
+Integrated the design with FPGA switches, buttons, LEDs, and seven-segment displays and exercised operation sequences through simulation.
 
 ## What This Demonstrates
 

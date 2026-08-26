@@ -2,7 +2,9 @@
 
 ## Overview
 
-Implemented and tested sequential up/down counter designs with clocked state updates and control inputs.
+Implemented two equivalent two-bit saturating up/down counters using Boolean next-state equations and an explicit finite-state-machine representation.  
+Added enable and reset controls plus outputs that expose direction prediction and confidence strength.  
+Compared both architectures with a clocked testbench covering saturation, reversal, disable, and reset sequences.
 
 ## What This Demonstrates
 
