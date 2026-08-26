@@ -2,7 +2,9 @@
 
 ## Overview
 
-Wrote an LC-2K assembly program that performs multiplication using low-level control flow and bit-level reasoning.
+Implemented integer multiplication in LC-2K assembly using only the architecture's small instruction set.  
+Designed a shift-and-add loop around registers, branches, and memory without relying on a native multiply instruction.  
+Tested boundary cases and instruction counts to verify correctness while keeping the routine compact and efficient.
 
 ## What This Demonstrates
 

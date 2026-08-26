@@ -2,7 +2,9 @@
 
 ## Overview
 
-Built an instruction-level simulator that executes LC-2K machine code and reports architectural state.
+Built an instruction-level LC-2K simulator in C that executes machine code while modeling registers, memory, the program counter, and halt behavior.  
+Implemented the precise semantics of arithmetic, memory, branch, jump-and-link, no-op, and halt instructions.  
+Verified state transitions and edge cases with targeted programs and complete architectural-state traces.
 
 ## What This Demonstrates
 

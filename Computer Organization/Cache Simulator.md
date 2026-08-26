@@ -2,7 +2,9 @@
 
 ## Overview
 
-Integrated a configurable cache model with a processor simulator and tracked cache hits, misses, dirty state, and memory transfers.
+Implemented a configurable set-associative cache supporting variable block size, set count, and associativity.  
+Modeled tag lookup, valid and dirty bits, least-recently-used replacement, write-back eviction, and transfers between the processor, cache, and memory.  
+Used trace-driven tests to distinguish hits, clean misses, dirty evictions, and boundary-sensitive memory behavior.
 
 ## What This Demonstrates
 

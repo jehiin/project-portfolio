@@ -2,7 +2,9 @@
 
 ## Overview
 
-Built a cycle-accurate pipelined processor simulator with forwarding, stalls, branch handling, and hazard control.
+Developed a cycle-accurate five-stage LC-2K pipeline simulator that advances instructions through explicit pipeline registers.  
+Implemented forwarding, load-use stalls, branch resolution, and pipeline flushing so hazards are handled without violating instruction semantics.  
+Validated correctness through cycle-by-cycle state traces and assembly tests crafted to expose subtle dependency and control-flow failures.
 
 ## What This Demonstrates
 

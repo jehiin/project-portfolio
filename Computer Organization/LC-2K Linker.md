@@ -2,7 +2,9 @@
 
 ## Overview
 
-Implemented a linker that combines object files, resolves symbols, applies relocations, and emits a final executable image.
+Built a static linker in C that combines multiple LC-2K object files into one executable machine-code image.  
+Merged text and data sections, constructed the final global symbol table, resolved cross-file references, and applied relocations after computing new addresses.  
+Tested duplicate and undefined symbols, local-label relocation, special stack addressing, and multi-file layout edge cases.
 
 ## What This Demonstrates
 

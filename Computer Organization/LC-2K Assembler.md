@@ -2,7 +2,9 @@
 
 ## Overview
 
-Implemented an assembler that translates LC-2K assembly instructions and labels into machine code.
+Built a two-pass assembler in C that translates LC-2K source programs into exact 32-bit machine-code words.  
+Resolved symbolic labels, encoded instruction fields by format, validated numeric ranges, and rejected malformed input with deterministic errors.  
+Created focused assembly tests for duplicate labels, undefined symbols, invalid opcodes, offsets, and legal boundary values.
 
 ## What This Demonstrates
 
