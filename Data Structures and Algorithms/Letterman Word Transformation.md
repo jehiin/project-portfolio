@@ -2,7 +2,9 @@
 
 ## Overview
 
-Solved word-transformation problems using breadth-first and depth-first search with configurable mutation rules.
+Built a configurable word-transformation solver that treats dictionary words as an implicit graph.  
+Used queue- and stack-based search to support breadth-first or depth-first exploration under change, swap, insertion, and deletion rules.  
+Reconstructed valid transformation paths, handled compressed dictionary syntax, and designed adversarial tests for reachability and mutation edge cases.
 
 ## What This Demonstrates
 

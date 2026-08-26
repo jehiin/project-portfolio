@@ -2,7 +2,9 @@
 
 ## Overview
 
-Implemented multiple priority-queue variants, including heap-based and pairing-heap structures, behind a common interface.
+Implemented five interchangeable priority-queue designs behind a common templated C++ interface.  
+Compared unordered, sorted, binary-heap, and pairing-heap representations while supporting custom comparators, updates, copying, and node-based key changes.  
+Reasoned explicitly about asymptotic tradeoffs and used invariant-focused tests to validate ordering, structural repair, and edge-case behavior.
 
 ## What This Demonstrates
 

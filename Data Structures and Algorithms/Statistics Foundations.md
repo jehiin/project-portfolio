@@ -2,7 +2,9 @@
 
 ## Overview
 
-Applied core C++ data processing and statistical calculations as an algorithms-course foundation project.
+Built a command-line C++ data-analysis program that parses a real tabular dataset and computes descriptive statistics.  
+Implemented reusable calculations for central tendency, spread, percentiles, filtering, and group comparison with attention to numerical and input edge cases.  
+Used the project to reinforce efficient container traversal, clean decomposition, and test-driven validation before larger algorithmic systems.
 
 ## What This Demonstrates
 
