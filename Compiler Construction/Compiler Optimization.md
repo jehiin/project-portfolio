@@ -2,7 +2,9 @@
 
 ## Overview
 
-Implemented liveness analysis, register allocation, and optimization passes while preserving program semantics.
+Implemented compiler analyses and optimization passes that improve generated code without changing observable behavior.  
+Computed control-flow-sensitive liveness information, built interference relationships, and assigned variables to registers with spill handling.  
+Validated optimized output against unoptimized execution across branching, procedure, and datatype-heavy programs to protect semantic correctness.
 
 ## What This Demonstrates
 

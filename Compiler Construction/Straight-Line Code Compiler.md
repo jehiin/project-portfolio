@@ -2,7 +2,9 @@
 
 ## Overview
 
-Implemented compiler support for straight-line programs and translation through the initial intermediate representations.
+Built the first end-to-end stages of a Rust compiler for straight-line source programs.  
+Implemented parsing, uniquification, intermediate-representation lowering, instruction selection, and executable assembly generation.  
+Used example-driven and automated tests to verify that each transformation preserved program meaning across the complete compilation pipeline.
 
 ## What This Demonstrates
 

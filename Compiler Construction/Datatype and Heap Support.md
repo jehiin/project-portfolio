@@ -2,7 +2,9 @@
 
 ## Overview
 
-Added richer datatypes, heap-allocated values, runtime checks, and type-aware compiler behavior.
+Extended the compiler with structured datatypes and heap-allocated runtime values.  
+Implemented type-aware lowering, memory layout, allocation, access operations, and runtime checks across the frontend, intermediate passes, backend, and runtime support.  
+Tested valid programs and failure cases to ensure high-level type and memory semantics survived every compiler transformation.
 
 ## What This Demonstrates
 

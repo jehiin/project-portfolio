@@ -2,7 +2,9 @@
 
 ## Overview
 
-Extended the compiler with conditionals, loops, labels, jumps, and control-flow-sensitive translation.
+Extended the compiler to translate conditionals, loops, comparisons, labels, and jumps into explicit control flow.  
+Built basic blocks and control-flow graphs, then lowered high-level branching into target-level conditional and unconditional instructions.  
+Validated nested and path-sensitive programs at every intermediate representation to catch semantic errors before final code generation.
 
 ## What This Demonstrates
 

@@ -2,7 +2,9 @@
 
 ## Overview
 
-Added procedure calls, calling conventions, argument passing, returns, and stack-aware code generation.
+Added first-class procedure compilation with function definitions, calls, arguments, return values, and nested control flow.  
+Implemented calling-convention rules, stack-frame management, caller/callee responsibilities, and register-aware argument passing.  
+Verified interprocedural behavior through recursive and multi-function programs that stress stack alignment, preserved state, and return control.
 
 ## What This Demonstrates
 
